@@ -2,6 +2,6 @@ services:
   - type: web
     name: webauditscanner
     env: python
-    buildCommand: ""
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn scanner:application"
     plan: free
