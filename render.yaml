@@ -3,5 +3,5 @@ services:
     name: webauditscanner
     env: python
     buildCommand: ""
-    startCommand: "gunicorn scanner:app"
+    startCommand: "gunicorn scanner:application"
     plan: free
